@@ -33,15 +33,22 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="block mt-4 lg:inline-block lg:mt-0 text-teal-100 hover:text-white mr-4 text-lg" href="#">HEART FAILURE</a>
+              <a class="block mt-4 lg:inline-block lg:mt-0 text-teal-100 hover:text-white mr-4 text-lg" href="#">
+                <button id="navAction" 
+                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">
+                  HEART FAILURE
+                </button>
+              </a>
             </li>
             <li class="mr-3">
-              <a class="block mt-4 lg:inline-block lg:mt-0 text-teal-100 hover:text-white mr-4 text-lg" href="#">BREAST CANCER</a>
+              <a class="block mt-4 lg:inline-block lg:mt-0 text-teal-100 hover:text-white mr-4 text-lg" href="#">
+                <button id="navAction" 
+                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">
+                  BREAST CANCER
+                </button>
+              </a>
             </li>
           </ul>
-          <a href="{{url_for('login')}}">
-            <button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Login/Register</button>
-          </a>
         </div>
       </div>
       

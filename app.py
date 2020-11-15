@@ -13,26 +13,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
-@app.route('/login')
-def login():
-    if request.method == 'POST':
-        '''
-        try:
-            # database work
-            return redirect(url_for('index')) 
-        except exceptions.BadRequest:
-
-        pass
-        '''
-    return render_template('login.html')
-
-
-@app.route('/register')
-def register():
-    return render_template('register.html')
-
-
 @app.route('/predict/<disease>', methods=['POST', 'GET'])
 def predict(disease):
     if disease == 'HeartFailure':
