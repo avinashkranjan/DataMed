@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+<title>Result</title>
+<style>
+    tr, th, td{
+        border: 2px solid whitesmoke;
+        padding: 5px;
+    }
+    table{
+        width: 50%;
+        text-align: center;
+    }
+    .center{
+        position: relative;
+        top: 45vh;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<center>
+  <div class="center">
+    <table class="table-auto">
+      <tr class="rounded-lg text-sm font-medium text-gray-700" style="font-size: 0.9674rem">
+        <th class="px-4 py-2 bg-gray-200" style="background-color:#f8f8f8ad">Age</th>
+        <th class="px-4 py-2" style="background-color:#f8f8f8ad">Disease</th>
+        <th class="px-4 py-2" style="background-color:#f8f8f8ad">Heart Failure Event</th>
+        <th class="px-4 py-2" style="background-color:#f8f8f8ad">Heart Failure Probability</th>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2">{{result[0]}}</td>
+        <td class="border px-4 py-2">{{result[1]}}</td>
+        <td class="border px-4 py-2">{{result[2]}}</td>
+        <td class="border px-4 py-2">{{result[3]}}%</td>
+      </tr>
+    </table>
+  </div>
+</center>
+{% endblock %}

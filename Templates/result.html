@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+<title>Result</title>
+<style>
+    tr, th, td{
+        border: 2px solid whitesmoke;
+        padding: 5px;
+    }
+    table{
+        width: 50%;
+        text-align: center;
+    }
+    .center{
+        position: relative;
+        top: 45vh;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<center>
+  <div class="center">
+    <table class="table-auto">
+      <tr class="rounded-lg text-sm font-medium text-gray-700" style="font-size: 0.9674rem">
+        {% for i in result.keys() %}
+        <th class="px-4 py-2 bg-gray-200" style="background-color:#f8f8f8ad">{{i}}</th>
+        {% endfor %}
+      </tr>
+      <tr>
+        {% for i in result.values() %}
+        <td class="border px-4 py-2">{{i}}</td>
+        {% endfor %}
+      </tr>
+    </table>
+  </div>
+</center>
+{% endblock %}
