@@ -50,7 +50,7 @@ def predict(disease):
                 parameter['Disease'] = disease
                 parameter['Condition'] = ["Malignant" if prediction[0][0] >= 0.5 else "Benign"]
                 parameter['Probability'] = output
-                return render_template('result.html', result=parameter)
+                return render_template('result-brc.html', result=parameter)
             except exceptions.BadRequest:
                 return abort(400)
             except ValueError:
