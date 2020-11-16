@@ -20,7 +20,7 @@ DataMed is a Machine-Learning web platform that  predicts severity of Disease. S
 - Python
 - Flask
 - Keras, Tensorflow and Scikit learn for building models to predict the disease probability 
-- Html, CSS, JavaScript 
+- HTML, CSS, JavaScript 
 
 ## 📌 License
 
