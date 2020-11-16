@@ -1,5 +1,4 @@
 Flask==1.1.2
-pickle>=4.0.0
 Werkzueg==1.0.1
 numpy>=1.9.2
 scipy>=0.15.1
