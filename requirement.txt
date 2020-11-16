@@ -1,0 +1,8 @@
+Flask==1.1.2
+pickle>=4.0.0
+Werkzueg==1.0.1
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn>=0.18
+Keras>=2.4.3
+Jinja2==2.10.1
