@@ -1,10 +1,11 @@
-![DataMed](https://socialify.git.ci/avinashkranjan/DataMed/image?description=1&font=Raleway&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+![DataMed](https://socialify.git.ci/avinashkranjan/DataMed/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
 ## 📌 Project Introduction
 
-DataMed is a machine-learning based web platform that provides essential tools for disease predictions. So far, we've deployed Heart Failure and Breast Cancer(tumour proliferation) prediction models.
+DataMed is a Machine-Learning web platform that  predicts severity of Disease. So far, we've deployed Heart Failure and Breast Cancer(tumour proliferation) prediction models.
 
-### What makes DataMed different ? 
+### What makes DataMed different ?
+
 * Models are updated frequently on new datasets to ensure the best user experience.  
 * It's minimalistic user interface makes it easier to make use of it even for a non tech-savvy person.
 
@@ -19,7 +20,7 @@ DataMed is a machine-learning based web platform that provides essential tools f
 - Python
 - Flask
 - Keras, Tensorflow and Scikit learn for building models to predict the disease probability 
-- Html, Css, JavaScript 
+- Html, CSS, JavaScript 
 
 ## 📌 License
 
