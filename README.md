@@ -2,7 +2,7 @@
 
 ## 📌 Project Introduction
 
-DataMed is a Machine-Learning web platform that  predicts severity of Disease. So far, we've deployed Heart Failure and Breast Cancer(tumour proliferation) prediction models.
+DataMed is a Machine-Learning web platform that  predicts severity of Disease. So far, we've deployed Heart Failure and Breast Cancer (Tumour Proliferation) prediction models.
 
 ### What makes DataMed different ?
 
@@ -18,9 +18,9 @@ DataMed is a Machine-Learning web platform that  predicts severity of Disease. S
 ## 📌 Technology Stack Used
 
 - Python
-- Flask
+- Flask [For Backend]
 - Keras, Tensorflow and Scikit learn for building models to predict the disease probability 
-- HTML, CSS, JavaScript 
+- HTML, CSS, JavaScript [For Frontend]
 
 ## 📌 License
 
